@@ -51,5 +51,6 @@ let elapsed = 0.0;
 app_.ticker.add((delta) => {
   elapsed += delta;
   sprite.x = 400.0 + Math.cos(elapsed / 50.0) * 100.0;
+  sprite.y = 300.0 + Math.sin(elapsed / 50.0) * 100.0;
   sprite.rotation += 0.1 * delta;
 });
