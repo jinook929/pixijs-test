@@ -1,3 +1,4 @@
+//// Spinning Animation ////
 const app = new PIXI.Application({ background: '#1099bb' });
 document.querySelector(".spinning").appendChild(app.view);
 
@@ -22,8 +23,7 @@ app.ticker.add((delta) => {
     spinningSpriteCan.rotation += 0.01 * delta;
 });
 
-//////////////////////////////////////////////////////
-
+//// Loading Animation ////
 // Create a new PixiJS Application
 const app_ = new PIXI.Application({
   width: 800,
@@ -55,7 +55,7 @@ app_.ticker.add((delta) => {
   sprite.rotation += 0.1 * delta;
 });
 
-
+//// Flying Bird Animation ////
 
 const birdData = {
   frames: {
