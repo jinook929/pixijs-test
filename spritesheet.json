@@ -1,0 +1,63 @@
+{
+  "frames": {
+    "bird1": {
+      "frame": { "x": 0, "y": 0, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird2": {
+      "frame": { "x": 240, "y": 0, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird3": {
+      "frame": { "x": 480, "y": 0, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird4": {
+      "frame": { "x": 720, "y": 0, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird5": {
+      "frame": { "x": 960, "y": 0, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird6": {
+      "frame": { "x": 0, "y": 314, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird7": {
+      "frame": { "x": 0, "y": 628, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird8": {
+      "frame": { "x": 0, "y": 942, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird9": {
+      "frame": { "x": 0, "y": 1256, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    },
+    "bird10": {
+      "frame": { "x": 0, "y": 1570, "w": 240, "h": 314 },
+      "sourceSize": { "w": 240, "h": 314 },
+      "spriteSourceSize": { "x": 0, "y": 0, "w": 240, "h": 314 }
+    }
+  },
+  "meta": {
+    "image": "hero_spritesheet.png",
+    "format": "RGBA8888",
+    "size": { "w": 1200, "h": 1256 },
+    "scale": 1
+  },
+  "animations": {
+    "enemy": ["bird1", "bird2", "bird3", "bird4", "bird5", "bird6", "bird7", "bird8", "bird9", "bird10"]
+  }
+}
