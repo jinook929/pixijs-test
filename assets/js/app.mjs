@@ -102,7 +102,7 @@ const birdData = {
     },
   },
   meta: {
-    image: 'hero_spritesheet.png',
+    image: '/assets/images/bird_spritesheet.png',
     format: 'RGBA8888',
     size: { w: 1200, h: 1256 },
     scale: 1
